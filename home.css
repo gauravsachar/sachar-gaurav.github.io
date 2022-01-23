@@ -21,9 +21,21 @@ body {
     flex-wrap: wrap;
 }
 
-@media (max-width:450px) {
+/* @media (max-width:450px) {
     .infocontainer {
         transform: scale(0.5);
         position: absolute;
+    }
+}
+ */
+
+@media (max-width:400px) {
+    .text {
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+    body {
+        background-image: url("bgphone.jfif") !important;
+        margin-bottom: 0;
     }
 }
