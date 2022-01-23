@@ -35,9 +35,11 @@ body {
         margin-bottom: 10px;
         font-family: "Times New Roman", Times, serif;
         font-weight: bolder;
+        
     }
     body {
         background-image: url("https://s3-ap-southeast-1.amazonaws.com/blogimages.crownit.in/1642933853_164293356694008390.png") !important;
         margin-bottom: 0;
+        background-size: cover;
     }
 }
