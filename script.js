@@ -1,6 +1,11 @@
 console.log("hello1456")
 
-document.querySelector('.ham').style.display = "none";
+document.querySelector('.cross').style.display = "none";
+
+if (window.matchMedia("(max-width: 400px)").matches) {
+    document.querySelector('.sidebar').classList.toggle('sidebargo');
+}
+
 
 document.querySelector('.hamburger').addEventListener("click", () => {
         document.querySelector('.sidebar').classList.toggle('sidebargo');
