@@ -31,11 +31,13 @@ body {
 
 @media (max-width:400px) {
     .text {
-        font-size: 10px;
+        font-size: 12px;
         margin-bottom: 10px;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bolder;
     }
     body {
-        background-image: url("bgphone.jfif") !important;
+        background-image: url("https://s3-ap-southeast-1.amazonaws.com/blogimages.crownit.in/1642933853_164293356694008390.png") !important;
         margin-bottom: 0;
     }
 }
